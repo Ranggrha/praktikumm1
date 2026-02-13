@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shellpdsgn's Porto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta><meta>
+    
+</head>
+<body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container">
+            <section id="hero" class="hero">
+                <div class="profile-pic">
+                    <img src="assets/rangga photo.jpeg" alt="Foto Profil" id="profile-img">
+                </div>
+                <div class="intro">
+                    <h1>Rangga Nugraha</h1>
+                    <h2>Graphic Designer, Vfx Artist, 3D Artist</h2>
+                    <p id="about">Born in Indonesia 2005, I'm an multidisciplinary designer based in Adobe Software. Since I was a child I have always had a great curiosity, later transformed into a passion, for what concerned design and creativity. Curiosity and the desire to do have made me what I define as multifaceted.</p>
+                    <button class="cta-btn" onclick="showMessage()">Let’s Connect</button>
+                </div>
+            </section>
+
+            <section class="portfolio" id="portfolio">
+                <h2>Featured Projects</h2>
+                <div id="portfolio-list" class="portfolio-list"></div>
+            </section>
+         
+<div
+  class="slider"
+  style="--width: 200px;
+    --height: 255px;
+    --quantity: 9;"
+>
+  <div class="list">
+    <div class="item" style="--position: 1">
+      <div
+        class="image">
+        <img src="assets/PHOTOSHOOT YB purple.webp"
+      >
+      </div>
+    </div>
+    <div class="item" style="--position: 2">
+      <div
+        class="image">
+        <img src="assets/Aria 2.webp"
+      >
+      </div>
+    </div>
+    <div class="item" style="--position: 3">
+      <div
+        class="image">
+        <img src="assets/Black Woman 2 (Brutalism).webp"
+      >
+      </div>
+    </div>
+    <div class="item" style="--position: 4">
+      <div
+        class="image">
+        <img src="assets/Distopia.webp"
+      >
+      </div>
+    </div>
+    <div class="item" style="--position: 5">
+      <div
+        class="image">
+        <img src="assets/PHOTOSHOOT YB normal.webp"
+      >
+      </div>
+    </div>
+    <div class="item" style="--position: 6">
+      <div
+        class="image">
+        <img src="assets/RIDO-STARBOY-OG.webp"
+      >
+      </div>
+    </div>
+    <div class="item" style="--position: 7">
+      <div
+        class="image">
+        <img src="assets/SUFFER-3.webp"
+      >
+      </div>
+    </div>
+    <div class="item" style="--position: 8">
+      <div
+        class="image">
+        <img src="assets/WOST-DSGN.webp"
+      >
+      </div>
+    </div>
+    <div class="item" style="--position: 9">
+      <div
+        class="image">
+        <img src="assets/SELF PHOTO.webp"
+      >
+      </div>
+    </div>
+  </div>
+</div>
+
+
+            <section class="testimonials" id="testimonials">
+                <h2>Testimonials</h2>
+                <div class="testimonial-cards" id="testimonial-cards"></div>
+            </section>
+
+            <section class="contact" id="contact">
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div id="contact-success" style="display:none; color: #2b6cb0; margin-top: 1em;">Thank you for reaching out!</div>
+            </section>
+
+            <footer>
+                <p>&copy;2026 Shellpdsgn </p>
+            </footer>
+        </div>
+        <script src="js/script.js"></script>
+</body>
+</html>
